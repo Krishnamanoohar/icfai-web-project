@@ -1,0 +1,26 @@
+.hero-container3{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -6rem;
+    background-color: aliceblue;
+}
+.hero-container3 > h1{
+    font-weight: 700;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    width: 39rem;
+    margin: 2rem;
+    margin-left: 44rem;
+    margin-top: -30rem;
+}
+
+.maingate{
+    margin: 40px;
+    width: 40rem;
+    height: 30rem;
+    display: inline;
+}
