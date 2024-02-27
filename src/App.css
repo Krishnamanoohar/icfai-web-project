@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 /* .home,
@@ -27,7 +27,7 @@
 } */
 
 .programs {
-  background-image: url('./images/img-1.jpg');
+  background-image: url("./images/img-1.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -44,43 +44,41 @@
   font-size: 100px;
 } */
 
-.sisNav{
+.sisNav {
   height: 7vh;
   background-color: white;
   width: 100%;
   display: flex;
-  
+
   gap: 10px;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: column;
   gap: 1px;
   background-color: grey;
   color: white;
-  max-height:83vh;
+  max-height: 83vh;
   width: 13vw;
   transition: ease-in;
   margin: 0;
 }
 
-.menu > div{
+.menu > div {
   border: 1px solid black;
   height: 5vh;
 }
 
-.menu > div:hover{
+.menu > div:hover {
   cursor: pointer;
 }
 
-.menuDiv{
+.menuDiv {
   display: flex;
   flex-direction: column;
- 
- 
 }
-.menuButton{
+.menuButton {
   background-color: whitesmoke;
   color: black;
   min-width: 4vw;
@@ -88,19 +86,15 @@
   border: 1px solid black;
 }
 
-
-.fa-bars{
+.fa-bars {
   background-color: black;
 }
 
-.sisContainer{
-/*   background-image: url('C:\Users\B.KRISHNA MANOHAR\total-website-react\src\images\SisBg.jpg'); */
-  background-size:contain;
- min-height: 87vh;
- min-width: 86vw;
- 
-
-
+.sisContainer {
+  /*   background-image: url('C:\Users\B.KRISHNA MANOHAR\total-website-react\src\images\SisBg.jpg'); */
+  background-size: contain;
+  min-height: 87vh;
+  min-width: 86vw;
 }
 
 .campuslife {
@@ -111,17 +105,15 @@
   color: #fff;
   font-size: 100px;
 }
-.form-container{
-  background-image: url('C:\Users\B.KRISHNA MANOHAR\total-website-react\src\images\loginBg.png');
+.form-container {
+  background-image: url("../src/images/loginBg.png");
   border-radius: 2px;
- 
-
 }
-.form-box-container{
+.form-box-container {
   width: 40rem;
   margin-left: 45rem;
 }
-.input-box{
+.input-box {
   background-color: #fff;
   text-align: center;
   margin-top: 4vh;
@@ -130,147 +122,137 @@
   border: 20px;
   border-color: black;
 }
-.input-field{
+.input-field {
   height: 2rem;
-
 }
-.logoimg{
- width: 300px;
- height: 70px;
+.logoimg {
+  width: 300px;
+  height: 70px;
 }
-.input-field{
+.input-field {
   display: inline-block;
   width: 20rem;
   height: 5rem;
 }
-.alert{
+.alert {
   color: red;
   display: block;
   margin-top: -1rem;
 }
- #success{
+#success {
   color: green;
- }
- .placements-mtr{
+}
+.placements-mtr {
   width: 40vw;
   margin-left: 10rem;
   line-height: 2rem;
- }
+}
 
- .IBS-red-hdng{
+.IBS-red-hdng {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: red;
- }
+}
 
- .placements-mtr > a{
+.placements-mtr > a {
   color: red;
- }
- .placementsImg{
+}
+.placementsImg {
   display: inline;
   margin-left: 50rem;
- }
- .placementsImg > img{
+}
+.placementsImg > img {
   margin-top: -60rem;
- }
+}
 
- .campus-Imgs{
+.campus-Imgs {
   width: 100vw;
- }
+}
 
- .felicitation-img{
+.felicitation-img {
   max-width: 1500px;
- }
+}
 
- .campus-Imgs > img{
+.campus-Imgs > img {
   max-width: 1364px;
- }
+}
 
-
- .componentRender{
+.componentRender {
   margin-left: 13vw;
-  min-height: 83vh ;
+  min-height: 83vh;
   /* width: 86.97vw; */
   width: 86vw;
   /* background-color: white; */
- }
+}
 
-
- .attGrid{
+.attGrid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1.7fr 1fr;
-  
+
   padding: 10px;
- }
- .attGridItem{
+}
+.attGridItem {
   display: inline-grid;
   background-color: rgba(255, 255, 255, 0.8);
   border: 0.7px solid rgba(0, 0, 0, 0.8);
   padding: 4px;
   font-size: 20px;
   text-align: center;
- }
+}
 
-
- .gradGrid{
+.gradGrid {
   display: grid;
   margin-left: 17vw;
   grid-template-columns: 40vw 17vw;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  
-  padding:10px;
- }
 
- .gradGridItems{
+  padding: 10px;
+}
+
+.gradGridItems {
   display: inline-grid;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 4px;
   font-size: 20px;
   text-align: center;
- }
+}
 
-
- legend {
+legend {
   display: block;
   padding-left: 10px;
   padding-right: 10px;
   border: 3px solid green;
-  background-color:tomato;
-  color:white;;
+  background-color: tomato;
+  color: white;
 }
 
-.doc{
+.doc {
   padding-left: 10vw;
   width: 70vw;
 }
 
-
-fieldset{
+fieldset {
   min-height: 14vh;
   padding-top: 2vh;
-
 }
 
-
-.Club{
+.Club {
   display: flex;
   height: 80vh;
   width: 99vw;
   margin: 0;
   padding: 0;
-  
- 
 }
 
-.left{
+.left {
   width: 49.9vw;
   height: 80vh;
   padding: 10px;
 }
 
-.left > img{
+.left > img {
   height: 20vh;
   width: 20vh;
   margin: 10px;
@@ -279,60 +261,52 @@ fieldset{
   transition: transform 0.47s;
 }
 
-
-
-.left > img:hover{
+.left > img:hover {
   transform: scale(1.1);
-  
 }
 
-.right{
+.right {
   width: 49.9vw;
   height: 80vh;
   border: 1px dotted black;
   padding: 30px;
   border-radius: 10%;
-  
 }
 
-.asana{
+.asana {
   display: flex;
   padding: 17px;
 }
 
-.asana > img{
+.asana > img {
   height: 17vh;
   width: 17vh;
   border: 1px solid grey;
   border-radius: 10%;
 }
 
-.asana > h1{
-
+.asana > h1 {
   width: 30vw;
 }
 
-.asanadesc{
+.asanadesc {
   display: flex;
   flex-direction: column;
-  
 }
 
-.asanadesc > p{
+.asanadesc > p {
   font-size: larger;
   font-weight: lighter;
 }
-.asanadesc > span{
+.asanadesc > span {
   font-weight: bold;
 }
 
-.cdesc{
+.cdesc {
   font-weight: lighter;
 }
 
-
-.complaintform{
-  
+.complaintform {
   border-radius: 2%;
   display: flex;
   flex-direction: column;
@@ -340,14 +314,14 @@ fieldset{
   width: 49vw;
   align-items: flex-start;
   gap: 4vh;
-  margin-left: 14Svw;
-  
+  margin-left: 14svw;
+
   background-color: whitesmoke;
   padding: 3vh;
   font-size: 27px;
 }
 
-.complaintform > label > input{
+.complaintform > label > input {
   background-color: transparent;
   border-top: 0;
   border-left: 0;
@@ -356,14 +330,13 @@ fieldset{
   font-size: 17px;
 }
 
-.complaintform > textarea{
+.complaintform > textarea {
   background-color: transparent;
   font-size: 18px;
   padding: 10px;
-
 }
 
-.complaintform > button{
+.complaintform > button {
   width: 7vw;
   height: 4vh;
   font-size: 17px;
