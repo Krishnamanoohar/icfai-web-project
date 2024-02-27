@@ -4,28 +4,6 @@
   padding: 0;
   font-family: "PT Sans", sans-serif;
 }
-
-/* .home,
-.placements,
-.programs,
-.campuslife,
-.student-login-btn {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-} */
-
-/* .placements {
-  background-image: url('./images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */
-
 .programs {
   background-image: url("./images/img-1.jpg");
   background-position: center;
@@ -34,15 +12,6 @@
   color: #fff;
   font-size: 100px;
 }
-
-/* .student-login-btn {
-  background-image: url('./images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */
 
 .sisNav {
   height: 7vh;
@@ -91,14 +60,12 @@
 }
 
 .sisContainer {
-  /*   background-image: url('C:\Users\B.KRISHNA MANOHAR\total-website-react\src\images\SisBg.jpg'); */
   background-size: contain;
   min-height: 87vh;
   min-width: 86vw;
 }
 
 .campuslife {
-  /* background-image: url('./images/img-4.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
