@@ -13,7 +13,6 @@ export default function StudentLogin() {
   const [passwordError, setPasswordError] = useState("");
   const redirect = useNavigate();
   const handleSubmit = (e) => {
-    console.log("validating");
     Validations();
   };
 
